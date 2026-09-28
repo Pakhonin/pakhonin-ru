@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ru-RU
   baseUrl: Pakhonin.github.io/pakhonin-ru
   ignorePatterns:
     - private
@@ -223,7 +223,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links:
         "© 2026 Pakhonin": https://github.com/Pakhonin
